@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Table Creation</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<style>
+#bordering {
+    border: 500px outset;
+    padding-top: 99px;
+    padding-right: 99px;
+    padding-left: 99px;
+    padding: 1500px;
+    
+    -webkit-border-image: url(border.png) 50 round; /* Safari 3.1-5 */
+    -o-border-image: url(border.png) 50 round; /* Opera 11-12.1 */
+    border-image: url(border.png) 50 round;
+}
+#boxing
+{width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0; 
+}
+</style>
+<body>
+
+<div class="container-fluid text-center">
+  <h2>Table</h2>
+  <p>Data stored is as given:</p>
+  <div id="bordering">   
+      <div class="row">
+    <div class="col-sm-4" style="background-color:lavender;"><strong>Firstname</strong> </div>
+    <div class="col-sm-4" style="background-color:lightcyan;"><strong>Lastname</strong></div>
+        <div class="col-sm-4" style="background-color:lightgray;"><strong>Email</strong></div>
+        </div>
+      <div class="row">
+        <div class="col-sm-4" style="background-color:pink;">Chloe</div>
+        <div class="col-sm-4" style="background-color:crimson;">Zara</div>
+        <div class="col-sm-4" style="background-color:yellow;">chloe@gmail.com </div>
+        </div>
+        <div class="row">
+        <div class="col-sm-4" style="background-color:lightcyan;">Zoey</div>
+        <div class="col-sm-4" style="background-color:lightgray;">Marie</div>
+        <div class="col-sm-4" style="background-color:lavender;">zoey@gmail.com</div>
+        </div>
+        <div class="row">
+        <div class="col-sm-4" style="background-color:lightgray;">Peter</div>
+        <div class="col-sm-4" style="background-color:lavender;">Parker</div>
+        <div class="col-sm-4" style="background-color:lavenderblush;">peter@gmail.com </div>
+      </div>
+</div>
+</div>
+
+</body>
+</html>
